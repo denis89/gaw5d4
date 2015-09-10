@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   
   get '/' => 'home#home'
   get '/new' => 'home#new'
-  post ''  => 'home#create'
+  post '/'  => 'home#create'
   get '/:id' => 'home#show'
   get '/:id/edit' => 'home#edit'
   put '/:id'  => 'home#update'

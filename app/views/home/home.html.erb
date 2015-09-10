@@ -6,6 +6,18 @@
 <body background="/images/tennis.jpg">
 <h1> Welcome to our Website. You can find here your potential Tennis Partner!</h1>
 <img src="/assets/tennis.jpg" />
-<p>Hello</p>
+
+<form action="/" class="new_tennis_player" id="new_tennis_player" method="post">
+
+  <input id="person_first_name" name="person[first_name]" type="text" placeholder="First name"/>
+ 
+  <input id="person_last_name" name="person[last_name]" type="text" placeholder="Last name"/>
+
+  <input id="person_city" name="person[city]" type="text" placeholder="City"/>  
+  
+  <input name="commit" type="submit" value="New Tennis Player" />
+
+
+</form>
 </body>
 </html>
